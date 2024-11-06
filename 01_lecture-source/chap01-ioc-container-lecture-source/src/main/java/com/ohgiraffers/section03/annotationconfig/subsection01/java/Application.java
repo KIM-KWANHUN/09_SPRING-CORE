@@ -1,6 +1,7 @@
 package com.ohgiraffers.section03.annotationconfig.subsection01.java;
 
 import com.ohgiraffers.common.MemberDAO;
+import com.ohgiraffers.common.MemberDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -25,5 +26,9 @@ public class Application {
         // MemberDAO클래스 호출
 
         System.out.println(memberDAO.selectMember(1));
+
+        System.out.println(memberDAO.insertMember(new MemberDTO(3,"user03","pass03","하츄핑")));
+        // insert 메소드로 멤버 생성
+        System.out.println(memberDAO.selectMember(3));
     }
 }
