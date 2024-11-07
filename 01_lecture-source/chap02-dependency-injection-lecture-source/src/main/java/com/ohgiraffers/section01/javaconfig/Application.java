@@ -15,8 +15,11 @@ public class Application {
         // bean 으로 등록 한 파일 꺼내오기.
 
         System.out.println(member.getPersonalAccount());
+
         System.out.println(member.getPersonalAccount().deposit(100000));
+
         System.out.println(member.getPersonalAccount().getBalance());
+
         System.out.println(member.getPersonalAccount().withDraw(1000));
 
     }
