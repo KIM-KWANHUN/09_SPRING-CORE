@@ -1,8 +1,12 @@
 package com.ohgiraffers.section02.common;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component // 빈생성
+@Primary
+@Order(1)
 public class Dog implements Animal{
     @Override
     public void eat() {

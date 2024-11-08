@@ -4,7 +4,7 @@ import com.ohgiraffers.section02.common.Animal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("primaryService")
 public class AnimalService {
 
     private final Animal animal;
