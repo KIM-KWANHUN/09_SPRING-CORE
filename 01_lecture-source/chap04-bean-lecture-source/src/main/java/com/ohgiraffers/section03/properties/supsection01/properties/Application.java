@@ -4,7 +4,6 @@ import com.ohgiraffers.common.Cart;
 import com.ohgiraffers.common.Drink;
 import com.ohgiraffers.common.Food;
 import com.ohgiraffers.common.Product;
-import com.ohgiraffers.section02.initdestroy.subsection02.annotation.ContextConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
