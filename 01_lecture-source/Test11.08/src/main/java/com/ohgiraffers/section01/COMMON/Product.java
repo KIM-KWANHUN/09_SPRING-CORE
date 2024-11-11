@@ -9,8 +9,7 @@ import lombok.*;
 @ToString
 public class Product {
 
-    private String name; // 요리사 이름
-    private Boolean BW; // 트루면 백 펄스면 흙
-    private String area; // 근무지역
+    private String name; // 이름
+    private int price; // 메뉴 가격
     private String category; // 메뉴 카테고리
 }
